@@ -1,0 +1,575 @@
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+.navbar-brand::after {
+    content: ".";
+    color: cornflowerblue;
+    border-radius: 50%;
+}
+.navbar li {
+    font-family: "Poppins", sans-serif;  
+    font-size: 13px;
+    line-height: 20px;
+}
+.navbar-brand {
+    font-family: "Source Sans 3", sans-serif; 
+    font-size: 35px;
+    line-height: 24px;
+    font-weight: 400px;
+}
+.header .carousel-inner .carousel-item {
+    height: 100vh;
+}
+.carousel-caption  {
+    padding-bottom: 250px;
+}
+.carousel-caption h1{
+    transform: translate(500%);
+    animation: hpop 12s linear infinite ;
+    
+}
+@keyframes hpop{
+    10%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+
+.carousel-caption p{
+    transform: translate(500%);
+    animation: ppop 12s 1s linear infinite ;
+}
+
+@keyframes ppop{
+    10%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+.carousel-caption button{
+    transform: translate(2000%);
+    animation: bpop 12s 2s linear infinite ;
+    
+}
+@keyframes bpop{
+    10%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+.navbar-inverse {
+    background-color: white;
+    border-color: transparent;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);;
+}
+.setting_icon {
+    top: 43%;
+    cursor: pointer;
+}
+.setting_icon2 {
+    top: 52%;
+    cursor: pointer;
+}
+.icon-layer {
+    transition: all 0.5s;
+    transform: translateX(100%);
+    background-color: white;
+    opacity: 0;
+}
+.setting_icon:hover .icon-layer {
+    transform: translateX(0%);
+    background-color: rgb(255, 255, 255, 0.9);
+    opacity: 1;
+}
+.setting_icon:hover .icon-layer i {
+    color: black;
+}
+.setting_icon2:hover .icon-layer {
+    transform: translateX(0%);
+    opacity: 1;
+}
+.nav-item:hover a {
+    color: #787878 !important;
+}
+.carousel-caption h1 {
+    font-size: 70px;
+    color:rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;  
+}
+.su{
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif; 
+}
+.carousel-caption p {
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+}
+.banner {
+    background-image: url(../images/bg-image-28.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.banner-img {
+    background-image: url(../images/bg-image-29.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.about button {
+    color: #787878;
+}
+.about button:hover {
+    background-color: black !important;
+    color: white !important;
+}
+.heading-1 p {
+    line-height: 36px;
+    font-size: 24px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 300px;
+    color:rgb(120, 120, 120);
+}
+.heading-1 .xo {
+    line-height: 36px;
+    font-size: 24px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 300px;
+    color:rgb(120, 120, 120);
+}
+.heading-1 button{
+    font-family: "Poppins", sans-serif; 
+    font-weight: 500px;
+    font-size: 12px;
+    line-height: 40px;
+}
+.heading-1 p span::after {
+    content: "";
+    color:rgb(0, 195, 218);
+    animation: typing 3s linear 1s infinite alternate;
+}
+@keyframes typing {
+    0% {
+        content: " s|";
+    }
+
+    5% {
+        content: " so|";
+    }
+
+    10% {
+        content: " sof|";
+    }
+
+    15% {
+        content: " soft|";
+    }
+
+    20% {
+        content: " softw|";
+    }
+
+    25% {
+        content: " softwa|";
+    }
+
+    30% {
+        content: " softwar|";
+    }
+
+    35% {
+        content: " software|";
+    }
+
+    40% {
+        content: " a|";
+    }
+
+    45% {
+        content: " ap|";
+    }
+
+    50% {
+        content: " app|";
+    }
+
+    55% {
+        content: " apps|";
+    }
+
+    60% {
+        content: " w|";
+    }
+
+    65% {
+        content: " we|";
+    }
+
+    70% {
+        content: " web|";
+    }
+    75% {
+        content: " webs|";
+    }
+    80% {
+        content: " websi|";
+    }
+    85% {
+        content: " websit|";
+    }
+    90% {
+        content: " website|";
+    }
+    95%{
+        content: " websites|";
+    }
+    100%{
+        content: " websitess|";
+    }
+}
+.heading-1 .max-width-700 {
+    max-width: 700px;
+}
+.pb-25 {
+    padding-bottom: 25px;
+}
+.pt-25 {
+    padding-top: 25px;
+}
+.pt-55 {
+    padding-top: 155px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+/*the fonts of section team*/
+.heading-2 h2{
+    z-index: 2;
+}
+.heading-2 h2::before{
+    content: attr(data-cletter);
+    position: absolute;
+    top: -0.25em;
+    left: 7.1em;
+    color: rgba(211, 211, 211,0.4);
+    z-index: -1;
+    font-size: 75px;
+    font-family: "Poppins", sans-serif;    
+}
+.team-image img {
+    width: 100%;
+}
+.heading-1 span{
+    color:rgb(31, 31, 31);}
+
+.team-infor h4, .heading-1 span{
+    font-family: "Poppins", sans-serif;  
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 500px;
+}
+.team-infor span
+{
+    font-family: "Poppins", sans-serif;  
+    font-size: 12px;
+    line-height: 18px;
+}
+.team-layer {
+    background-color: rgba(0, 195, 218, 0.9);
+    transform: translateY(7%);
+    transition: transform 0.5s ease;
+    opacity: 0;
+}
+.team-m:hover .team-layer {
+    transform: translateY(0px);
+    opacity: 1;
+}
+/*the fonts of section wwdo*/
+.wwdo {
+    background-color: dimgrey;
+    z-index: 1;
+}
+.checklist li, .he p {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400px;
+}
+.iteme h4 {
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    line-height: 17px;
+    font-family: "Poppins", sans-serif;
+}
+.title h2{
+    z-index: 2;
+}
+.title h2::before {
+    content: attr(data-bletter);
+    position: absolute;
+    top: -0.55em;
+    left: -0.18em;
+    font-size: 70px;
+    color: rgba(211, 211, 211,0.1);
+    z-index: -1;
+}/*the end od section wwdo*/
+/*fonts of prices*/
+.pricing{
+    z-index: 1;
+}
+.cheap h2{
+    z-index: 2;
+}
+.cheap h2::before {
+    content: attr(data-letter);
+    position: absolute;
+    top: 0.5em;
+    left: 7.7em;
+    color: rgba(211, 211, 211,0.4);
+    font-size: 70px;
+    font-family: "Poppins", sans-serif;
+    z-index: -1;
+}
+.font-size-13 {
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 17px;
+    color: rgb(31, 31, 31);
+    font-family: "Poppins", sans-serif;
+}
+.topscript {
+    vertical-align: top;
+    font-size: 17px;
+}
+.features li{
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Source Sans 3", sans-serif;
+    color: rgb(120, 120, 120);
+}
+.price h2 {
+    font-size: 50px;
+    position: relative;
+}
+.price h2::after {
+    content: "";
+    width: 96%;
+    height: 2px;
+    position: absolute;
+    line-height: 24px;
+    background-color: rgba(120, 120, 120, 0.1);
+    top: 100%;
+    left: 2%;
+}
+.pricing-table {
+    transition: box-shadow 0.5s ease;
+}
+.pricing-table:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.pricing-head span {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500px;
+    font-family: "Poppins", sans-serif;
+}
+/*the end of section orices*/
+/*the fonts of caresol with image*/
+.customers span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500px;
+    font-size: 13px;
+    line-height: 17px;
+    color: rgb(31, 31, 31);
+    font-style: normal;
+}
+.customer h5{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    color: rgb(31, 31, 31);
+}
+.customer span{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+}
+.na img {
+    width: 100px;
+    height: 100px;
+    transform: translateY(50%);
+}
+.lo [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #787878;
+}
+.lo .active {
+    background-color: aqua;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-image: none;
+
+}
+.carousel-control-prev-icon{
+    background-image: url(../images/arrows.png);
+    left: 0;
+    transition: all ease 0.2s;
+    opacity: 0.3;
+}
+.carousel-control-prev-icon:hover{
+    transform: translateX(-6px);
+    opacity: 1;
+}
+.carousel-control-next-icon{
+    background-image: url(../images/arrows\ right.png);
+    left: 0;
+    transition: all ease 0.2s;
+    opacity: 0.3;
+}
+.carousel-control-next-icon:hover{
+    transform: translateX(6px);
+    opacity: 1;
+}/*the end of caresol*/
+
+
+/*Fonts of contact section*/
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid hsla(0, 0%, 80%, 0.664);
+    border-radius: 5px;
+}
+.contact h2,.cheap h2, title h2, .heading-2 h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700px;
+    font-size: 38px;
+    font-style: normal;
+    Color:rgb(31, 31, 31);
+    line-height: 49px;
+}
+.contact h2::before {
+    content: attr(data-bigletter);
+    position: absolute;
+    top: -13px;
+    color: rgba(211, 211, 211,0.3);
+    box-shadow: 10px;
+    left: -7px;
+    z-index: -1;
+    font-size: 80px;
+    font-family: "Poppins", sans-serif;
+}
+.contact h4, .customer p, .cheap h4, .heading-2 h4{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400px;
+    color:rgb(120, 120, 120);
+}
+.contact label{
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 500px;
+    line-height: 20px;
+    Color:rgb(22, 22, 22);
+}
+.contact button, .pricing-table button{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 600px;
+}
+.py-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.pe-60 {
+    padding-left: 60px;
+} /*the end of contact*/
+
+@media (min-width:768px) and (max-width:991px) {
+    .carousel-caption {
+        padding-bottom: 350px;
+    }
+    .carousel-caption h2 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:767px) {
+    .heading-1 .max-width-700 {
+        width: 380px;
+    }
+    .navbar-inverse .navbar-brand {
+        font-size: 30px;
+        padding: 20px 15px;
+    }
+    .navbar-collapse {
+        background-color: white;
+        color: black;
+    }
+    .carousel-caption {
+        padding-bottom: 120px;
+    }
+    .carousel-caption h1 {
+        font-size: 60px;
+    }
+    .carousel-caption p {
+        font-size: 15px;
+    }
+    .carousel-caption button {
+        padding-bottom: 40px;
+    }
+    .home-icon {
+        visibility: hidden;
+    }
+    .iteme{
+        text-align: center;
+    }
+    .cheap h2::before {
+        top: 0.5em;
+        left: 2.5em;
+    }
+    .heading-2 h2::before{
+        top: -0.2em;
+        left: 2.3em;
+    }
+    .pt-55{
+        padding-top: 260px;
+    }
+    .customers .carousel-inner{
+        width: 95% !important;
+    }
+    .carousel-control-prev-icon{
+        display: none;
+    }
+    .carousel-control-next-icon{
+        display: none;
+    }
+}
